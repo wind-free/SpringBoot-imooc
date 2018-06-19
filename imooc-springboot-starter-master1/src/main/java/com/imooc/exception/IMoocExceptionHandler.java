@@ -52,9 +52,6 @@ public class IMoocExceptionHandler {
 	 * Copyright: Copyright (c) 2017
 	 * Company:FURUIBOKE.SCIENCE.AND.TECHNOLOGY
 	 * 
-	 * @author leechenxiang
-	 * @date 2017年12月3日 下午1:40:39
-	 * @version V1.0
 	 */
 	public static boolean isAjax(HttpServletRequest httpRequest){
 		return  (httpRequest.getHeader("X-Requested-With") != null  
