@@ -2,9 +2,6 @@ package com.imooc.exception;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
-
 import com.imooc.pojo.IMoocJSONResult;
 
 //@RestControllerAdvice
